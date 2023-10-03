@@ -9,6 +9,6 @@ int main() {
         contador += 2; // Pasamos al siguiente número impar sumando 2.
         numeros_impares++;
     }
-    printf("La suma de los primeros 100 números impares es: %d\n", suma);
+    printf("La suma de los primeros 100 numeros impares es: %d\n", suma);
     return 0;
 }
