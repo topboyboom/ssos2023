@@ -1,19 +1,21 @@
 #include <stdio.h>
 
-int main() {
-    int lado1, lado2, lado3;
+int main() 
+{
+    int a, b, c;
     printf("Ingrese la longitud del primer lado del triangulo: ");
-    scanf("%d", &lado1);
+    scanf("%d", &a);
     printf("Ingrese la longitud del segundo lado del triangulo: ");
-    scanf("%d", &lado2);
+    scanf("%d", &b);
     printf("Ingrese la longitud del tercer lado del triangulo: ");
-    scanf("%d", &lado3);
+    scanf("%d", &c);
 
-    if (lado1 == lado2 && lado2 == lado3) 
+    if (a ==b && b == c) 
     {
         printf("El triangulo es equilatero.\n");
-    } else if 
-       (lado1 != lado2 && lado2 != lado3 && lado1 != lado3) 
+    } 
+    else if 
+       (a != b && b != c && a != c) 
        {
         printf("El triangulo es escaleno.\n");
        } 
