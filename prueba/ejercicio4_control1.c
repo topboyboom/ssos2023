@@ -3,21 +3,21 @@
 
 int main()
 {
-    int contador = 1;
+    int c = 1;
 
     for (int i = 0; i < 10; i++)
     {
-        int suma = 100;
+        int sum = 100;
 
-        printf("%d\t->\t",contador);
+        printf("%d\t->\t",c);
 
         for (int j = 0; j < 6; j++)
         {
-            printf("%d\t",suma);
-            suma += 10;
+            printf("%d\t",sum);
+            sum += 10;
         }
         printf("\n");
-        contador++;
+        c++;
     }
 
     return 0;
